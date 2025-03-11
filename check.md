@@ -1,0 +1,3 @@
+Loại trừ lẫn nhau (Mutual Exclusion): Khi một tiến trình P₁ đang thực thi khu vực quan trọng (CS), không một tiến trình  nào khác được thực thi khu vực quan trọng 
+• Tiến triển (Progress): Nếu không có tiến trình nào đang thực  thi khu vực quan trọng, và tồn tại một số tiến trình muốn thực  thi khu vực quan trọng thì việc lựa chọn tiến trình tiếp theo thực  thi khu vực quan trọng không thể bị trì hoãn vô thời hạn 
+▪ Chờ đợi có giới hạn (Bounded Waiting): sau khi một tiến trình  P₁ có yêu cầu vào CS, và trước khi yêu cầu đó được chấp nhận, số lần các tiến trình P₁ (với j≠i) được phép thực hiện CS phải bị  giới hạn
